@@ -1,5 +1,5 @@
 - name: Configuration nginx
-  hosts: nginx
+  hosts: web
   become: True
   tasks:
     - name: install nginx
